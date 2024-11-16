@@ -1,0 +1,10 @@
+<div>
+    <ul>
+        @if(snippets.length == 0) {
+            <li>Please save a code snippet to get started!</li>
+        }
+        @for (snippet of snippets; track snippet.id) {
+            <li a [routerLink]="['/snippet', snippet.id]">{{snippet.title}}</li>
+        }
+    </ul>
+</div>

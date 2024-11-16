@@ -1,0 +1,45 @@
+/* General container for the snippet */
+div {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+  }
+  
+  /* Title of the code snippet */
+  h4.code.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+  }
+  
+  /* Style for the code snippet content */
+  h6.code {
+    font-size: 16px;
+    white-space: pre-wrap;  /* Maintains line breaks from the code */
+    word-wrap: break-word;  /* Handles long words or lines */
+    background-color: #282c34; /* Dark background for code */
+    color: #f8f8f2;  /* Light color for text */
+    padding: 12px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;  /* Monospace font for code */
+    margin: 0;
+    overflow-x: auto;  /* Allows horizontal scrolling for wide code blocks */
+  }
+  
+  /* Optional: Style for the container when there is no snippet */
+  div *ngIf {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    padding: 20px;
+    border-radius: 4px;
+  }

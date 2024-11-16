@@ -1,0 +1,59 @@
+/* Basic container style */
+div {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the unordered list */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style for each list item */
+  li {
+    padding: 12px 16px;
+    margin-bottom: 8px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Hover effect for each snippet item */
+  li:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  /* Style for empty list message */
+  li *ngIf {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    padding: 20px;
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    border-radius: 4px;
+  }
+  
+  /* Style for the router link inside the list item */
+  li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 600;
+    display: block;
+  }
+  
+  /* Style when hovering over the link */
+  li a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
